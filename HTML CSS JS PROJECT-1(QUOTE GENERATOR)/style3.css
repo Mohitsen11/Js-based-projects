@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(./assets/bg1.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.container-title{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width:80%;
+    margin: 20px auto;
+}
+
+.container-quotes{
+    background-color: #fff;
+    height: 320px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.container-quotes .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.container-quotes #quotes-person{
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.next-btn button{
+    font-size: 1.3rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.next-btn button:active{
+    background-color: rgb(66, 141, 165);
+}
+
+

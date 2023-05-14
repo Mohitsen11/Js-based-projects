@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(bg.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    background-color: #fff;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#timer{
+    font-size: 4em;
+    text-align: center;
+    margin: 12px auto;
+    padding: 32px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons button{
+    font-size:2rem;
+    margin: 0px 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button i{
+    width: 3rem;
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#play{
+    background-color: green;
+}
+
+#pause{
+    background-color: orange;
+}
+
+#reset{
+    background-color: red;
+}
